@@ -1,0 +1,13 @@
+<form (ngSubmit)="save()">
+    <input type="text" class="form-control" placeholder="Nom" [(ngModel)]="etudiant.nom" name="nom"/>
+    <input type="text" class="form-control" placeholder="Prenom" [(ngModel)]="etudiant.prenom" name="prenom"/>
+    <input type="text" class="form-control" placeholder="Rue" [(ngModel)]="etudiant.rue" name="Rue"/>
+    <input type="text" class="form-control" placeholder="Ville" [(ngModel)]="etudiant.ville" name="Ville"/>
+    <input type="number" class="form-control" placeholder="CP" [(ngModel)]="etudiant.cp" name="CP"/>
+    <input type="email" class="form-control" placeholder="Courriel" [(ngModel)]="etudiant.courriel" name="Courriel"/>
+    <input type="text" class="form-control" placeholder="Genre" [(ngModel)]="etudiant.genre" name="Genre"/>
+    <input type="number" class="form-control" placeholder="Age" [(ngModel)]="etudiant.age" name="Age"/>
+    <input type="number" class="form-control" placeholder="IdCandidat" [(ngModel)]="etudiant.id" name="IdCandidat"/>
+    <button type="submit" class="btn btn-primary mt-3">Sauvegarder</button>
+  </form>
+  

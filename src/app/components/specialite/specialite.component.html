@@ -1,0 +1,18 @@
+
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Libellé</th>
+        <th scope="col">ID</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let spe of spec">
+        <th scope="row">{{ spe._libelle }}</th>
+        <td>{{ spe._idSpec }}</td>
+
+      </tr>
+    </tbody>
+  </table>
+  
